@@ -13,7 +13,7 @@ use yii\captcha\Captcha;
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">欢迎登录</p>
+        <p class="login-box-msg"></p>
         <?php $form = ActiveForm::begin([
                 'id' => 'login-form'
         ]); ?>
